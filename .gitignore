@@ -1,0 +1,172 @@
+# Ignore .deb files
+*.deb
+
+# Ignore .mpg files
+*.mpg
+
+# Ignore specific folders
+Downloads/
+snap/
+# Ignore media files
+media-content/
+
+# Ignore fonts folder
+fonts/
+
+# Ignore video files
+*.mp4
+*.mov
+*.avi
+
+# Ignore image files
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.svg
+
+# Ignore stylesheets if you don't want to track them
+*.css
+
+# Ignore all temporary and backup files
+*~
+*.bak
+*.swp
+# Ignore media files
+media-content/
+
+# Ignore fonts folder
+fonts/
+
+# Ignore video files
+*.mp4
+*.mov
+*.avi
+
+# Ignore image files
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.svg
+
+# Ignore stylesheets if you don't want to track them
+*.css
+
+# Ignore all temporary and backup files
+*~
+*.bak
+*.swp
+# Ignore media files
+media-content/
+
+# Ignore fonts folder
+fonts/
+
+# Ignore video files
+*.mp4
+*.mov
+*.avi
+
+# Ignore image files
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.svg
+
+# Ignore stylesheets if you don't want to track them
+*.css
+
+# Ignore all temporary and backup files
+*~
+*.bak
+*.swp
+# Ignore media files
+media-content/
+
+# Ignore fonts folder
+fonts/
+
+# Ignore video files
+*.mp4
+*.mov
+*.avi
+
+# Ignore image files
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.svg
+
+# Ignore stylesheets if you don't want to track them
+*.css
+
+# Ignore all temporary and backup files
+*~
+*.bak
+*.swp
+
+
+# Ignore node_modules, media files, fonts, etc.
+node_modules/
+media-content/
+fonts/
+*.mp4
+*.mov
+*.deb
+*.log
+.vscode/
+# Ignore cache files, logs, and unnecessary directories
+*.log
+*.deb
+*.sqlite
+*.cache
+*.bak
+
+# Ignore Firefox cache
+.snap/
+.cache/
+.mozilla/
+
+# Ignore any system-specific files that are unnecessary
+.DS_Store
+Thumbs.db
+
+# Ignore .cache folder (Google Chrome Cache)
+.cache/
+
+# Ignore other IDE/editor-related files
+.vscode/
+
+# Ignore Node.js dependencies (if any)
+node_modules/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore environment files
+.env
+
+# Ignore log files
+*.log
+# Ignore Chrome related files
+.config/google-chrome/
+
+# Ignore system and browser caches
+.config/
+.cache/
+node_modules/
+dist/
+build/
+*.log
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore vim swap files
+*.swp
+
+# Other common files to ignore
+*.bak
