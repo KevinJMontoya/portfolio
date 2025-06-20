@@ -1,0 +1,174 @@
+/*css*/
+@font-face {
+    font-family:"OkineBlack";
+    src: url(fonts/MADEOkineSansPERSONALUSE-Black.otf);
+}
+@font-face {
+    font-family:"Okine";
+    src: url(fonts/MADEOkineSansPERSONALUSE-Regular.otf);
+}
+@font-face {
+    font-family:"Codec";
+    src: url(fonts/Codec-Cold-ExtraBold-trial.ttf);
+}
+@font-face {
+    font-family:"Codeclight";
+    src: url(fonts/Codec-Cold-Light-trial.ttf);
+}
+
+@font-face {
+    font-family:"ripoff";
+    src: url(fonts/Ripoff.ttf);
+}
+
+@font-face {
+    font-family:"Marker";
+    src: url(fonts/PermanentMarker.ttf)
+}
+
+body { 
+    margin:0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.header{
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-left:75px;
+    padding-top:25px;
+    position:sticky;
+    top:0;
+    z-index: 999;
+    padding-bottom: 0;
+}
+
+h1 {
+    font-family: "Codec";
+    font-size: 32px;
+    color:black;
+    margin:0px;
+}
+
+.links {
+    display:flex;
+    justify-content:flex-end;
+    padding-right: 90px;
+    align-items: center;
+    gap: 55px;
+}
+
+a {
+    text-decoration:none;
+    font-size: 18px;
+    font-family: "Codeclight";
+    font-weight: bolder;
+    color:rgb(121, 121, 121);
+    margin:0px;
+}
+
+h4 {
+    font-size: 38px;
+}
+
+.select{
+    display:flex;
+    justify-content:space-around;
+    padding:55px 0;
+}
+
+.container{
+    position:relative;
+}
+
+img{
+    display:block;
+ }
+
+.overlay{
+   position: absolute;
+   top:0;
+   bottom:0;
+   right:0;
+   left:0;
+   height:100%;
+   width:100%;
+   opacity:0%;
+   transition: .5s ease;
+   background-color:rgb(19, 19, 29);
+}
+
+.container:hover .overlay{
+    opacity: 1;
+}
+
+.text{
+    color:white;
+    font-size:50px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+
+.footer{
+    font-family: "Okine";
+    color:grey;
+    font-size:14px;
+    padding:35px;
+    padding-bottom:45px;
+}
+/*
+
+p {
+    font-size:20px;
+    display:flex;
+    flex-flow: row wrap;
+    max-width: 500px;
+}
+
+h2 {
+    font-family: "Codec";
+    font-size: 25px;
+    font-weight:900;
+    margin-bottom:0%;
+}
+h3 {
+    font-family: "Okine";
+    font-size: 35px;
+}
+
+.subtitle {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 25px;
+    padding: 20px;
+    padding-top:95px; 
+}
+.topcontainer{
+    display:flex; 
+    flex-flow: row;
+    gap: 25px;
+}
+
+.container{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 155px;
+    padding:12px;
+    gap:10px;
+}
+
+.description {
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width:270px;
+}
+
