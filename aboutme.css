@@ -70,28 +70,21 @@ a {
 
 p {
     display: flex;
-    font-family: "Georgia";
+    font-family:Arial, Helvetica, sans-serif;
     word-spacing:4px;
-    line-height:28px;
-    font-size:19px;
-    padding:32px 74px;
+    line-height:24px;
+    font-size:17px;
+    padding:42px 124px;
     padding-top:6px;
+    font-display:block;
 }
 
-
-.container {
+.container{
     display:flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    flex-flow: row;
     align-items: center;
     padding:30px 170px;
     margin:0px;
-}
-
-.png{
-    display:flex;
-    justify-content: center;
-    gap:50px;
 }
 
 .footer{

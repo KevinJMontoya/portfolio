@@ -37,11 +37,11 @@ body {
     flex-flow: row wrap;
     justify-content: space-between;
     padding-left:75px;
-    padding-top:25px;
+    padding-top:35px;
+    padding-bottom:35px;
     position:sticky;
     top:0;
     z-index: 999;
-    padding-bottom: 0;
 }
 
 h1 {
@@ -75,16 +75,12 @@ h4 {
 .select{
     display:flex;
     justify-content:space-around;
-    padding:55px 0;
+    padding-bottom:45px;
 }
 
 .container{
     position:relative;
 }
-
-img{
-    display:block;
- }
 
 .overlay{
    position: absolute;
@@ -122,53 +118,3 @@ img{
     padding:35px;
     padding-bottom:45px;
 }
-/*
-
-p {
-    font-size:20px;
-    display:flex;
-    flex-flow: row wrap;
-    max-width: 500px;
-}
-
-h2 {
-    font-family: "Codec";
-    font-size: 25px;
-    font-weight:900;
-    margin-bottom:0%;
-}
-h3 {
-    font-family: "Okine";
-    font-size: 35px;
-}
-
-.subtitle {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items:center;
-    gap: 25px;
-    padding: 20px;
-    padding-top:95px; 
-}
-.topcontainer{
-    display:flex; 
-    flex-flow: row;
-    gap: 25px;
-}
-
-.container{
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding-bottom: 155px;
-    padding:12px;
-    gap:10px;
-}
-
-.description {
-    font-size:18px;
-    font-family: Arial, Helvetica, sans-serif;
-    max-width:270px;
-}
-
