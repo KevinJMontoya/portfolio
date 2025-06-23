@@ -67,3 +67,25 @@ a {
     color:rgb(121, 121, 121);
     margin:0px;
 }
+
+.container{
+    display:flex;
+    justify-content: center;
+    padding:120px;
+}
+
+.form{
+    align-items:center;
+    padding: 45px 135px;
+    background-color:rgb(155, 188, 188);
+}
+
+input{
+    display:flex;
+    flex-flow:column;
+    gap: 55px;
+}
+
+.help{
+    padding: 65px 0;
+}

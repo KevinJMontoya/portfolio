@@ -96,7 +96,7 @@ h3 {
     display:flex; 
     justify-content: flex-end;
     flex-flow: row;
-    padding: 0px 55px ;
+    padding: 0px 55px;
 }
 
 .top{
@@ -115,7 +115,7 @@ h3 {
     flex-flow: row wrap;
     justify-content: center;
     gap: 55px;
-    background: rgb(53, 53, 53);
+    background: rgb(255, 255, 255);
 }
 
 .media {
@@ -166,6 +166,14 @@ h3 {
     height:100%;
     width: auto;
     margin:auto;
+}
+
+.arrow{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:5px;
+    /*background: red; */
 }
 
 .footer{

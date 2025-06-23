@@ -73,13 +73,19 @@ h4 {
 }
 
 .select{
-    display:flex;
-    justify-content:space-around;
-    padding-bottom:45px;
+    display:flex;   
+    justify-content: center;
+    padding-bottom:45px;  
+}
+
+img{
+    width:100%;
+    position: center;
 }
 
 .container{
-    position:relative;
+    position:relative;     
+    flex:1;
 }
 
 .overlay{
@@ -118,3 +124,4 @@ h4 {
     padding:35px;
     padding-bottom:45px;
 }
+

@@ -109,3 +109,11 @@ h3 {
     padding:25px;
     padding-bottom:40px;
 }
+
+.arrow{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:5px;
+    /*background: red; */
+}

@@ -69,22 +69,42 @@ a {
 }
 
 p {
-    display: flex;
     font-family:Arial, Helvetica, sans-serif;
     word-spacing:4px;
     line-height:24px;
     font-size:17px;
-    padding:42px 124px;
-    padding-top:6px;
+    padding: 6px 124px 42px 124px; 
     font-display:block;
+}
+
+.wrapper{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100dvh;
+  background-color: red;
 }
 
 .container{
     display:flex;
-    flex-flow: row;
+    flex-flow: row ;
     align-items: center;
     padding:30px 170px;
-    margin:0px;
+}
+
+.space {
+  flex: 1;
+  overflow-y:auto;
+}
+
+.png{
+    display:flex;
+    direction: row; 
+    gap:45px;
+    justify-content:center;
+    align-content:center;
+    padding:20px; 
+    margin: 0;
 }
 
 .footer{
@@ -94,3 +114,4 @@ p {
     padding:25px;
     padding-bottom:40px;
 }
+
