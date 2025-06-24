@@ -75,26 +75,15 @@ p {
     font-size:17px;
     padding: 6px 124px 42px 124px; 
     font-display:block;
+  
 }
 
-.wrapper{
-    display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100dvh;
-  background-color: red;
-}
 
 .container{
     display:flex;
     flex-flow: row ;
     align-items: center;
     padding:30px 170px;
-}
-
-.space {
-  flex: 1;
-  overflow-y:auto;
 }
 
 .png{
