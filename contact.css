@@ -25,25 +25,28 @@
     font-family:"Marker";
     src: url(fonts/PermanentMarker.ttf)
 }
-
 body { 
-    margin:0px;
-    background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 auto;
 }
-
 .header{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     padding-left:75px;
-    padding-top:25px;
+    padding-top:35px;
+    padding-bottom:35px;
     position:sticky;
     top:0;
     z-index: 999;
-    padding-bottom: 0;
+    width: 100%;
 }
-
 h1 {
     font-family: "Codec";
     font-size: 32px;
@@ -51,9 +54,15 @@ h1 {
     margin:0px;
 }
 
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+}
+
 .links {
     display:flex;
-    justify-content:flex-end;
     padding-right: 90px;
     align-items: center;
     gap: 55px;
@@ -61,31 +70,126 @@ h1 {
 
 a {
     text-decoration:none;
-    font-size: 18px;
-    font-family: "Codeclight";
+    font-size: 22px;
+    font-family: "Codec";
     font-weight: bolder;
     color:rgb(121, 121, 121);
     margin:0px;
 }
 
-.container{
+/* PAGE */
+
+.contact-container{
+    height:80vh;
     display:flex;
-    justify-content: center;
-    padding:120px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.form{
-    align-items:center;
-    padding: 45px 135px;
-    background-color:rgb(155, 188, 188);
-}
-
-input{
+.contact-left{
     display:flex;
-    flex-flow:column;
-    gap: 55px;
+    flex-direction: column;
+    align-items: start;
+    gap:20px;
 }
 
-.help{
-    padding: 65px 0;
+.contact-left-title h2{
+    font-family: "Codeclight";
+    font-weight: 900;
+    color: #0057ad;
+    font-size:40px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr{
+    border:none;
+    width: 120px;
+    height: 5px;
+    background-color: #077bff;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight:500;
+    color: #000000;
+    border-radius: 50px;
+}
+
+.contact-left textarea{
+    height:140px;
+    padding-top: 15px;
+    border-radius: 15px;
+}
+
+.contact-inputs:focus{
+    border: 2px solid #ff994f;
+}
+
+.contact-inputs::placeholder{
+    color: rgb(119, 119, 119);
+}
+.contact-left button{
+    display: flex;
+}
+
+.contact-left button{
+    display:flex;
+    align-items: center;
+    padding:15px 30px;
+    font-size: 16px;
+    color:#3f3f3f;
+    gap: 12px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.contact-left button img{
+    height: 15px;
+}
+
+button:hover{
+    background-color: rgb(16, 158, 116);
+    color: white;
+}
+
+input, textarea, button{
+    background-color: rgb(198, 234, 255);    
+   /* background: linear-gradient(blue, green); */
+}
+
+.contact-right img{
+    width:575px;
+}
+.box{ 
+    display: flex;
+    justify-self: center;
+        gap: 60px;
+        padding-bottom: 55px;;
+}
+.icon{ 
+    width:55px;
+}
+
+.footer{
+    font-family: "Okine";
+    color:grey;
+    font-size:14px;
+    margin-bottom: -20px;
+    padding-top: 30px;
+}
+@media (max-width:800px) {
+    .contact-inputs{
+        width: 80vw;
+    }
+    .contact-right{
+        display:none;
+    }
 }

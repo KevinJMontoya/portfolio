@@ -25,14 +25,17 @@
     font-family:"Marker";
     src: url(fonts/PermanentMarker.ttf)
 }
-
 body { 
-    margin:0px;
-    background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 auto;
 }
-
 .header{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -42,8 +45,8 @@ body {
     position:sticky;
     top:0;
     z-index: 999;
+    width: 100%;
 }
-
 h1 {
     font-family: "Codec";
     font-size: 32px;
@@ -51,9 +54,15 @@ h1 {
     margin:0px;
 }
 
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+}
+
 .links {
     display:flex;
-    justify-content:flex-end;
     padding-right: 90px;
     align-items: center;
     gap: 55px;
@@ -61,12 +70,14 @@ h1 {
 
 a {
     text-decoration:none;
-    font-size: 18px;
-    font-family: "Codeclight";
+    font-size: 22px;
+    font-family: "Codec";
     font-weight: bolder;
     color:rgb(121, 121, 121);
     margin:0px;
 }
+
+/* PAGE */
 
 h4 {
     font-size: 38px;
@@ -116,12 +127,10 @@ img{
     transform: translate(-50%, -50%);
     text-align:center;
 }
-
 .footer{
     font-family: "Okine";
     color:grey;
     font-size:14px;
-    padding:35px;
-    padding-bottom:45px;
+    margin-bottom: -20px;
+    padding-top: 30px;
 }
-

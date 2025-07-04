@@ -27,23 +27,27 @@
 }
 
 body { 
-    margin:0px;
-    background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 auto;
 }
-
 .header{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     padding-left:75px;
-    padding-top:25px;
+    padding-top:35px;
+    padding-bottom:35px;
     position:sticky;
     top:0;
     z-index: 999;
-    padding-bottom: 0;
+    width: 100%;
 }
-
 h1 {
     font-family: "Codec";
     font-size: 32px;
@@ -51,9 +55,15 @@ h1 {
     margin:0px;
 }
 
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+}
+
 .links {
     display:flex;
-    justify-content:flex-end;
     padding-right: 90px;
     align-items: center;
     gap: 55px;
@@ -61,12 +71,14 @@ h1 {
 
 a {
     text-decoration:none;
-    font-size: 18px;
-    font-family: "Codeclight";
+    font-size: 22px;
+    font-family: "Codec";
     font-weight: bolder;
     color:rgb(121, 121, 121);
     margin:0px;
 }
+
+/* PAGE */
 
 p {
     font-size:20px;
@@ -87,33 +99,42 @@ h3 {
     display: flex;
     justify-content: center;
     align-items:center;
+
 }
 
 .container{
-    display:flex; 
+    display: flex;
+    flex-flow: column wrap;
     justify-content: center;
-    flex-flow: row;
-    gap: 25px;
+    align-items: center;
+    margin: 0 auto;
+    width:80%;
+}
+
+.box{
+    display:flex;
+    justify-content: row wrap;
+    align-items: center;
+    gap:40px;
+    padding-bottom: 155px;
 }
 
 .description {
     font-size:18px;
     font-family: Arial, Helvetica, sans-serif;
-    max-width:270px;
+    max-width:390px;
 }
 
+.arrow{ 
+    display: flex;
+    align-self: end;
+    align-items: center;
+    padding-top: 90px;
+}
 .footer{
     font-family: "Okine";
     color:grey;
     font-size:14px;
-    padding:25px;
-    padding-bottom:40px;
-}
-
-.arrow{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap:5px;
-    /*background: red; */
+    margin-bottom: -20px;
+    padding-top: 30px;
 }

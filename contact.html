@@ -6,26 +6,42 @@
     <link rel="stylesheet" href="contact.css">
     <title>Contact</title>
 </head>
+
+<div class="header">
+  <div class="left">
+    <h1>KEVIN J MONTOYA</h1> <a href="index.html">Portfolio</a></div>
+    <div class ="links">
+      <a href="aboutme.html">About Me</a>
+      <a href="contact.html">Contact</a>
+    </div>
+</div>
+  
 <body>
-
-    <div class="header">
-        <a href="index.html"><h1>KEVIN J MONTOYA</h1></a>
-        <div class ="links">
-             <a href="aboutme.html">About Me</a>
-             <a href="contact.html">Contact</a>
-        </div>
+  <div class="contact-container">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+      <div class="contact-left-title">
+        <h2>Let me know how I can help!</h2>
+        <hr>
       </div>
-    
-      <div class= "container">
-      <div class="form"><h1>Contact</h1>
-        Name<input type:text>
-        Email<input type:text>
-        Phone<input type:number>
-        How i can help?<input class ="help" type:text>
-        </div>
+       <input type="hidden" name="access_key" value="59bd6328-3952-4dbf-8f62-3771dc5f3407">
+      <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+      <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+      <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="contact-right">
+      <img src="/media-content/Design-portfolio.png" alt="PNG icon for email">
       </div>
-    
+  </div>
 
-
+<div class="box">     
+  <a href="https://github.com/KevinJMontoya" target="_blank"><img class="icon" src="/media-content/GitHub-Logo.png"></a>
+  <a href="https://www.linkedin.com/in/kevin-montoya-640997372/" target="_blank"><img class="icon" src="/media-content/linkedin.png"></a>
+  <a href="/media-content/ProfessionalResume.pdf"target="_blank"><img class="icon" src="/media-content/resume.png"></a>
+</div> 
 </body>
+
+<hr />
+<div class="footer">Kevin J Montoya &copy; 2025 </div>
+
 </html>
